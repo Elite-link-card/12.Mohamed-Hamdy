@@ -5,9 +5,9 @@
     bottom: 2rem;
     margin: auto;
     will-change: top,opacity;
-    max-width: 540px;
-    max-height: min(680px,var(--safe-modal-height));
-    background: #ffffff;
+    max-width: 412px;
+    max-height: max(914px,var(--safe-modal-height));
+    background: #000000;
     padding-bottom: 2rem;
     z-index: 1000;
     display: none;
