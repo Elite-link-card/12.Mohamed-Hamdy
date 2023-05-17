@@ -2056,7 +2056,6 @@ fieldset {
 
 .blinq-card {
     max-width: 500px;
-    max-height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
