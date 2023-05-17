@@ -17,7 +17,8 @@
 }
 
 .modal.fit-to-card {
-    max-width: 440px
+    max-width: 412px
+    
 }
 
 .modal:not(.bottom-sheet) {
@@ -92,7 +93,7 @@
 
 .modal .sample-cards-carousel {
     display: flex;
-    max-width: 440px;
+    max-width: 412px;
     overflow-x: scroll;
     height: 50vh;
     padding-left: 1.5rem;
@@ -1159,7 +1160,7 @@ fieldset {
     z-index: 2
 }
 
-@media screen and (min-height: 440px) {
+@media screen and (min-height: 412px) {
     .modal-btn-container.sticky-until-small-screen {
         position:sticky
     }
@@ -1676,7 +1677,7 @@ fieldset {
     height: 100%
 }
 
-@media screen and (max-height: 440px) {
+@media screen and (max-height: 412px) {
     #save-contact-modal.modal {
         max-height:min(700px,var(--safe-modal-height))
     }
@@ -2046,15 +2047,16 @@ fieldset {
     padding: 2rem 0
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 412px) {
     .card-page {
         padding:0;
-        background: #fff
+        background: #000000
     }
 }
 
 .blinq-card {
-    max-width: 440px;
+    max-width: 412px;
+    max-height: 914px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2065,7 +2067,7 @@ fieldset {
     box-shadow: hsl(0, 0%, 0%) 0px 0px 0px 1px,rgba(0, 0, 0, 0.995) 0px 3px 6px,rgba(243, 243, 243, 0.918) 0px 9px 24px
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 412px) {
     .blinq-card {
         border-radius:0;
         align-self: flex-start;
@@ -2093,7 +2095,7 @@ fieldset {
     }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 412px) {
     .blinq-card-sib-override {
         margin-bottom:8rem
     }
@@ -2147,7 +2149,7 @@ fieldset {
     padding-top: 1%
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 412px) {
     .card-header {
         border-radius:0
     }
@@ -2619,7 +2621,7 @@ fieldset {
     border-top: 1px solid var(--primary-200)
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 412px) {
     .save-btn-container-sib-override {
         position:fixed;
         left: 0;
