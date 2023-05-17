@@ -2249,7 +2249,7 @@ fieldset {
     will-change: transform;
     z-index: 2;
     left: 5%;
-    transform: translateX(220px) translateY(50px);
+    transform: translateX(100px) translateY(-50px);
     
 }
 
@@ -2263,13 +2263,6 @@ fieldset {
     width: 35.5555555556%;
     padding-top: 20%;
     border-radius: 5px
-}
-
-.left-picture:hover {
-    transition: transform .2s;
-    box-shadow: 0 2px 6px rgba(0,0,0,.15),0 1px 3px rgba(0,0,0,.1);
-    transform: scale(1.02);
-    transform: translateX(220px) translateY(50px);
 }
 
 .left-picture .left-picture-img {
@@ -2362,8 +2355,10 @@ fieldset {
 }
 
 .user-details .user-identity {
-    margin-top: -40px;
+    margin-top: -75px;
     margin-bottom: .5rem;
+    transform: translateX(50px);
+    color: #ffffff;
 }
 
 .user-details .user-name {
@@ -2371,8 +2366,8 @@ fieldset {
     font-weight: 700;
     line-height: 1.3;
     display: inline;
-    color: rgb(0, 0, 0);
-    transform: translateY(-200px);
+    color: rgb(255, 255, 255);
+    transform: translateY(200px) translateX(-200px);
 }
 
 .user-details .user-pronouns {
@@ -2383,11 +2378,13 @@ fieldset {
     display: inline
 }
 
-.user-details .user-job-title {
-    font-size: 1.5rem;
-    font-weight: 600;
+.user-details .bio-name {
+    font-size: 1.125rem;
+    font-weight: 400;
     line-height: 1.2;
+    font-style: italic;
     margin-bottom: .25rem;
+    transform: translateX(20px);
     white-space: pre-wrap
 }
 
