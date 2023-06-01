@@ -2594,8 +2594,21 @@ fieldset {
 }
 
 .detail-icon {
+  position: relative;
+  top: 16px;
   width: 100px;
   height: 100px;
+}
+
+.fa-facebook,
+.fa-link,
+.fa-phone {
+  left: 16px;
+}
+
+.fa-instagram,
+.fa-whatsapp {
+  left: 14px;
 }
 
 .detail-list .detail-icon-circle {
