@@ -1037,7 +1037,6 @@ html {
   border-radius: 12px;
   background: #000000;
 }
-@keyframes  url(Untitled\ design\ \(1\).png){
   max-width: 100%;
 }
 }
@@ -2161,11 +2160,9 @@ fieldset {
   justify-content: left;
   width: 100%;
   background: #ff000000;
-  background-image: url(Untitled\ design.png);
   padding: 0rem 0;
 }
 
-}
 
 
 
